@@ -4,7 +4,9 @@ const Game = require("../ttt_node/game");
 document.addEventListener("DOMContentLoaded", () => {
   // Your code here
   const game = new Game();
-  // body / figure
   const body = document.getElementById("body");
   const view = new View(game, body);
+  // game.winner => returns winner's mark
+  // game.isOver => returns true or false
+  // hidden div
 });
